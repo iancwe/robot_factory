@@ -29,23 +29,6 @@ describe Robot do
     end
 end
 
-
-  # run r1.reset => new name for r1
-describe 'should reset robot name and give new name' do
-    @r1.clear
-    @r2.clear
-    expect(@r1.name).to eq('BC888')
-    describe '#reset' do
-        it 'should reset robot name to a new one' do
-          original_name = @r1.name
-          @r1.reset
-          expect(@r1.name).not_to eq original_name
-        end
-      end
-    expect(@r1.name).to eq('CV009')
-  end
-end
-
 describe '#reset' do
     it 'should reset robot name to a new one' do
       original_name = @r1.name
