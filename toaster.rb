@@ -4,7 +4,7 @@ require 'pry'
 class Toaster < Robot
 def initialize(brand)
   super()
-  @brand = brand
+  @brand = brands
 end
 end
 
