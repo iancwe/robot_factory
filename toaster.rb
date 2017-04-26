@@ -6,7 +6,3 @@ def initialize(brand)
   super()
   @brand = brands
 end
-end
-
-
-binding.pry

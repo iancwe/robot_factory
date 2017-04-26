@@ -21,13 +21,12 @@ class Robot
     @@all_robots.include? @name
   end
 
-
   def reset
     @name = name_randomizer
   end
 
   def random_str
-    alphabet = ('A'..'Z').to_a
+    alphabet = ('A'..'C').to_a
     random_index = rand(alphabet.count)
     alphabet[random_index]
   end

@@ -30,9 +30,9 @@ describe Robot do
 end
 
 describe '#reset' do
-    it 'should reset robot name to a new one' do
-      original_name = @r1.name
-      @r1.reset
-      expect(@r1.name).not_to eq original_name
-    end
+  it 'should reset robot name to a new one' do
+    original_name = @r1.name
+    @r1.reset
+    expect(@r1.name).not_to eq original_name
   end
+end
