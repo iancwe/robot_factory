@@ -29,6 +29,10 @@ describe Robot do
       @r2.clear
       expect(@r1.name).to eq('BC888')
       expect(@r1.name).to eq('CV009')
+  end
+
+  describe 'same name should not appear again' do
+    
 
   end
 
