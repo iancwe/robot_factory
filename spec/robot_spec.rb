@@ -10,7 +10,8 @@
 #
 
 require_relative'../robot'
-
+@r1=Robot.new
+@r2=Robot.new
 describe Robot do
   describe 'Initialization' do
     # no 1. update this test so we will get random name
@@ -22,4 +23,13 @@ describe Robot do
       # expect(r1.name).to eq('ABC123')
     end
   end
+  # run r1.reset => new name for r1
+  describe 'should reset robot name and give new name' do
+      @r1.clear
+      @r2.clear
+      expect(@r1.name).to eq('BC888')
+      expect(@r1.name).to eq('CV009')
+
+  end
+
 end
