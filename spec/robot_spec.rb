@@ -13,9 +13,13 @@ require_relative'../robot'
 
 describe Robot do
   describe 'Initialization' do
-    it'should create new robot name' do
-      r1 = Robot.new
-      expect(r1.name.length).to exist
+    # no 1. update this test so we will get random name
+    it'should create random robot name' do
+      r1 = Robot.new('OD207')
+      r2 = Robot.new('BB827')
+      # r1.name.should_not eq r2.name
+      expect(r1.name).not_to eq(r2.name)
+      # expect(r1.name).to eq('ABC123')
     end
   end
 end
