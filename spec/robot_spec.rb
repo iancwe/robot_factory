@@ -10,12 +10,22 @@
 #
 
 require_relative'../robot'
-
+@r1=Robot.new
+@r2=Robot.new
 describe Robot do
   describe 'Initialization' do
     it'should create new robot name'do
-      r1=Robot.new
+
       expect(r1.name).to eq('AB123')
     end
   end
+  # run r1.reset => new name for r1
+  describe 'should reset robot name and give new name' do
+      @r1.clear
+      @r2.clear
+      expect(@r1.name).to eq('BC888')
+      expect(@r1.name).to eq('CV009')
+
+  end
+
 end
