@@ -21,8 +21,8 @@ describe Robot do
 
     # no 1. update this test so we will get random name
     it'should create random robot name' do
-      r3 = Robot.new('OD207')
-      r6 = Robot.new('BB839')
+      r4 = Robot.new('OD207')
+      r10 = Robot.new('BB844')
       # r1.name.should_not eq r2.name
       expect(r1.name).not_to eq(r2.name)
       # expect(r1.name).to eq('ABC123')
