@@ -14,9 +14,9 @@ require_relative'../robot'
 @r2 = Robot.new
 describe Robot do
   describe 'Initialization' do
-    it'should create new robot name' do
-      expect(@r1.name).to match(/^[A-Z]{2}\d{3}$/)
-      expect(@r2.name).to match(/^[A-Z]{2}\d{3}$/)
+    it'should create new mjnjnk robot name' do
+      expect(@r1.name).to not_match(/^[A-Z]{2}\d{3}$/)
+      expect(@r2.name).to not_match(/^[A-Z]{2}\d{3}$/)
     end
 
     # no 1. update this test so we will get random name
