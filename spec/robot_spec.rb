@@ -18,7 +18,7 @@ describe Robot do
       expect(@r1.name).to match(/^[A-Z]{2}\d{3}$/)
       expect(@r2.name).to match(/^[A-Z]{2}\d{3}$/)
     end
-    
+
     # no 1. update this test so we will get random name
     it'should create random robot name' do
       r1 = Robot.new('OD207')
@@ -28,6 +28,7 @@ describe Robot do
       # expect(r1.name).to eq('ABC123')
     end
 end
+
 
   # run r1.reset => new name for r1
 describe 'should reset robot name and give new name' do
