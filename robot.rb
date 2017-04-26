@@ -1,6 +1,6 @@
 class Robot
 
-@@name = []
+@@all_robots = []
 
 attr_reader :name
 
