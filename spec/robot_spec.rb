@@ -38,4 +38,3 @@ describe '#reset' do
     expect(@r1.name).not_to eq name
   end
 end
-end
