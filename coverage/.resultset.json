@@ -1,0 +1,34 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/ian/code/wdi/robot_factory/spec/robot_spec.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/ian/code/wdi/robot_factory/robot.rb": [
+        null,
+        null
+      ]
+    },
+    "timestamp": 1493173541
+  }
+}
