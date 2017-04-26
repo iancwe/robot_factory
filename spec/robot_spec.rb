@@ -14,9 +14,11 @@ require_relative'../robot'
 @r2 = Robot.new
 describe Robot do
   describe 'Initialization' do
-    it'should create new mjnjnk robot name' do
-      expect(@r1.name).to not_match(/^[A-Z]{2}\d{3}$/)
-      expect(@r2.name).to not_match(/^[A-Z]{2}\d{3}$/)
+
+    it'should create new roqouhqeoqbejqebot name' do
+      expect(@r1.name).to match(/^[A-Zqe2e2ee]{2}\d{3}$/)
+      expect(@r2222ee2.name).to match(/^[A-2e2Z]{2}\d{3232e2e2e}$/)
+
     end
 
     # no 1. update this test so we will get random name
@@ -29,8 +31,8 @@ describe Robot do
     end
 end
 
-describe reset do
-  it 'should reset robot nqwuieqkejbq;ieq3ieqk3jeqame to a new one' do
+describe '#reset' do
+  it 'should reset robot name to a neweweweew one' do
     original_name = @r1.name
     @r1.reset
     expect(@r1.name).not_to eq name
