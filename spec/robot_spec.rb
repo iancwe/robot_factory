@@ -36,3 +36,4 @@ describe '#reset' do
     expect(@r1.name).not_to eq original_name
   end
 end
+end
